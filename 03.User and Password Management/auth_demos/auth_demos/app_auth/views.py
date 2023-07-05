@@ -43,7 +43,7 @@ class LoginUserView(auth_views.LoginView):
 
 
 
-class LogoutUserView(views.View):
+class LogoutUserView(auth_views.LogoutView):
     pass
 
 

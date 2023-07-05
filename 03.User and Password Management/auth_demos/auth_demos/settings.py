@@ -128,5 +128,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = reverse_lazy('register_user')
+LOGIN_REDIRECT_URL = reverse_lazy('users_list')
+LOGOUT_REDIRECT_URL = reverse_lazy('users_list')
 LOGIN_URL = reverse_lazy('login_user')
